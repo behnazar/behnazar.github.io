@@ -255,4 +255,53 @@ width: 229px;
 margin-bottom: 10px;
 }
 }
-</style>
+@media (max-width: 375px) {
+  body
+  {
+    width: 375px;
+    background-image: none;
+    background-color: #DC143C;
+  }
+  header
+  {
+  width: 365px;
+  }
+  nav
+  {
+    width: auto;
+    height: auto;
+  }
+  p
+  {
+    margin: 10px 0px 10px 0px;
+  }
+  .nav1
+  {
+    width: 375px;
+    display: none;
+    font-size: 2vw;
+  }
+  .nav2
+  {
+    border-style: solid;
+    border-style: none;
+    height: auto;
+    width: 360px;
+  }
+.nav3
+{
+  border-style: none;
+  width: 360px;
+  font-size: 14px;
+}
+.carus
+{
+  width: 350px;
+  height: 300px;
+}
+.box1
+{
+  width: 350px;
+  height: 200px;
+  margin: 10px 0px 0px 0px;
+}
